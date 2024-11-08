@@ -1,4 +1,4 @@
-![8fa6bede8c2cb6125860352958320802](https://github.com/user-attachments/assets/00824a49-1f16-46e2-8dfc-18111ac7e9f6)# Selected Animation Method: Perlin Noise-driven Motion
+# Selected Animation Method: Perlin Noise-driven Motion
 
 
 
