@@ -23,6 +23,30 @@ Inspired by petals floating in the streets of Sydney, I used Perlin Noise to cre
 
 ![b81a50d8ef343e258d3a3203c7b181d1](https://github.com/user-attachments/assets/97c66561-9c33-4ae4-a41b-81629e051b14)
 
+## Technical Explanation   
+In this code, I used p5.js to implement dynamic effects based on Perlin Noise. Here are the key techniques utilized:
 
+### Perlin Noise Dynamic Effect
+
+Perlin Noise was used to generate dynamic variations in elements (such as boxes and particles), ensuring smooth, free-flowing motion in space. By mapping noise to each element's position and rotation, a natural dynamic effect is achieved.
+Specifically, noise(x, y, z) controls the positional variation of elements, creating a smooth transition based on the noise function at each iteration.
+
+### Nested Structure
+
+Multiple nested loops were used in the code (mainly for individual element oscillation and overall element movement) to apply Perlin Noise across multiple dimensions. Each nested level controls different visual elements, enriching the animation effect and enabling smooth transitions across layers.
+
+
+### 3D Rendering and Canvas Setup
+
+The WEBGL mode in p5.js was used to create a 3D canvas, which allows for 3D graphical functions like rotation, translation, and scaling to enhance the visual experience.
+By setting up the canvas with createCanvas() in WEBGL mode, 3D shapes (e.g., boxes and particles) can be dynamically controlled and rendered on the canvas.
+
+## External Tools and Techniques
+
+WEBGL: 3D effects were achieved by setting the canvas to WEBGL mode. Reference: https://p5js.org/reference/p5/WEBGL/
+
+map(): Used to precisely control the dynamic variation of element properties, ensuring smooth and natural animation. Reference: https://p5js.org/reference/p5/map/
+
+This code combines layered Perlin Noise, separate settings for different elements, and variations in shape and color to achieve a free-flowing, dreamy, and multi-layered animation effect in a 3D scene.
 
 
